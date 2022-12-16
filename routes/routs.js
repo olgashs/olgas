@@ -17,7 +17,7 @@ app.use(function(req, res, next) {
 
 mongoose.Promise=global.Promise
 mongoose.set('strictQuery', true);
-mongoose.connect('mongodb://127.0.0.1:27017/m', {
+mongoose.connect('mongodb+srv://olgas:Yimi2081@mycluster.0uggfb9.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     
     useUnifiedTopology: true
